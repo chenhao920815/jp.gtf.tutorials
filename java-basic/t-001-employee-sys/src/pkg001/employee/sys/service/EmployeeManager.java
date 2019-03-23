@@ -18,7 +18,7 @@ import pkg001.employee.sys.model.Employee;
 
 /**
  * オブジェクト操作クラス<br>
- * 社員操作クラス（ビジネスロジック）
+ * 社員操作クラス（ビジネスロジック） 試す修正
  *
  * @author FXD
  */
