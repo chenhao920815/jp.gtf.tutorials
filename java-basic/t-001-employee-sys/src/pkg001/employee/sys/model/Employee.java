@@ -28,7 +28,7 @@ public class Employee {
      */
     public String eSex;
     /**
-     * 職位11
+     * 職位
      */
     public String ePos;
     /**
