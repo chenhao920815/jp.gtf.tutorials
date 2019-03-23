@@ -8,56 +8,31 @@ package pkg001.employee.sys.model;
 import java.util.Date;
 
 /**
- * 社員データ
+ * 社員型を定義する<br>
+ * オブジェクト
  *
  * @author FXD
  */
 public class Employee {
 
+    /**
+     * 社員ID
+     */
     public String eId;
+    /**
+     * 社員名称
+     */
     public String eName;
+    /**
+     * 性別
+     */
     public String eSex;
+    /**
+     * 職位
+     */
     public String ePos;
+    /**
+     * 入社日
+     */
     public Date eEntryDate;
-
-    public String geteId() {
-        return eId;
-    }
-
-    public void seteId(String eId) {
-        this.eId = eId;
-    }
-
-    public String geteName() {
-        return eName;
-    }
-
-    public void seteName(String eName) {
-        this.eName = eName;
-    }
-
-    public String geteSex() {
-        return eSex;
-    }
-
-    public void seteSex(String eSex) {
-        this.eSex = eSex;
-    }
-
-    public String getePos() {
-        return ePos;
-    }
-
-    public void setePos(String ePos) {
-        this.ePos = ePos;
-    }
-
-    public Date geteEntryDate() {
-        return eEntryDate;
-    }
-
-    public void seteEntryDate(Date eEntryDate) {
-        this.eEntryDate = eEntryDate;
-    }
-
 }
